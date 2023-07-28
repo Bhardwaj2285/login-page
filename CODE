@@ -37,3 +37,82 @@ HTML
 </html>
 
 
+
+
+
+#CSS
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .column {
+    flex-basis: 45%;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .mobile-image {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  img {
+    max-width: 20%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 768px) {
+    .column {
+      flex-basis: 100%;
+    }
+  }
+  
+
+
